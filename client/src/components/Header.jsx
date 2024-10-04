@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "react-router-dom";
+
 const Header = () => {
   return (
     <div className="flex justify-around items-center my-3">
@@ -10,8 +12,12 @@ const Header = () => {
       </div>
       <div>
         <ul className="flex space-x-8 text-sm font-light">
-          <li className="hover:text-gray-700">HOME</li>
-          <li className="hover:text-gray-700">FEATURES</li>
+          <li className="hover:text-gray-700">
+            <Link to="/">HOME</Link>
+          </li>
+          <li className="hover:text-gray-700">
+            <Link to="/features">FEATURES</Link>
+          </li>
           <li className="hover:text-gray-700">PORTFOLIO</li>
           <li className="hover:text-gray-700">RESUME</li>
           <li className="hover:text-gray-700">TESTIMONAL</li>

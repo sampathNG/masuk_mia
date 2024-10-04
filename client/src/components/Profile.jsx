@@ -1,6 +1,7 @@
 import React from "react";
 import { SlSocialFacebook, SlSocialLinkedin } from "react-icons/sl";
 import { RxTwitterLogo } from "react-icons/rx";
+import { FaFigma } from "react-icons/fa6";
 
 const Profile = () => {
   return (
@@ -60,21 +61,30 @@ const Profile = () => {
               </h1>
             </div>
 
-            {/* Social Buttons */}
             <div className="flex space-x-5">
-              {/* Facebook Button */}
-              <button className="p-4 rounded-lg bg-white hover:text-white shadow-lg hover:bg-gradient-to-r from-blue-500 to-red-300 transition-transform duration-300 hover:-translate-y-1">
-                <SlSocialFacebook className="text-2xl " />
+              <button className="p-4 rounded-lg bg-white hover:text-white shadow-lg hover:bg-gradient-to-r from-blue-500 to-red-300">
+                <img
+                  src="https://rainbowit.net/themes/inbio/wp-content/uploads/2021/08/icons-01.png"
+                  alt="icon"
+                  width={30}
+                  height={10}
+                />
               </button>
-
-              {/* Twitter Button */}
-              <button className="p-4 rounded-lg bg-white hover:text-white shadow-lg hover:bg-gradient-to-r from-blue-500 to-red-300 transition-transform duration-300 hover:-translate-y-1">
-                <RxTwitterLogo className="text-2xl " />
+              <button className="p-4 rounded-lg bg-white hover:text-white shadow-lg hover:bg-gradient-to-r from-blue-500 to-red-300 ">
+                <img
+                  src="https://rainbowit.net/themes/inbio/wp-content/uploads/2021/08/icons-02.png"
+                  alt="icon"
+                  width={30}
+                  height={10}
+                />
               </button>
-
-              {/* LinkedIn Button */}
-              <button className="p-4 rounded-lg bg-white hover:text-white shadow-lg hover:bg-gradient-to-r from-blue-500 to-red-300 transition-transform duration-300 hover:-translate-y-1">
-                <SlSocialLinkedin className="text-2xl " />
+              <button className="p-4 rounded-lg bg-white hover:text-white shadow-lg hover:bg-gradient-to-r from-blue-500 to-red-300">
+                <img
+                  src="https://rainbowit.net/themes/inbio/wp-content/uploads/2021/08/icons-03.png"
+                  alt="icon"
+                  width={20}
+                  height={10}
+                />
               </button>
             </div>
           </div>
