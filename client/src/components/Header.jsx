@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
-    <div className="flex justify-around items-center my-3">
+    <div className="flex justify-around items-center my-3 sticky top-0 bg-white shadow-md z-10 py-3">
       <div>
         <img
           src="https://rainbowit.net/themes/inbio/wp-content/themes/inbio/assets/images/logo/logo-dark.png"
@@ -18,13 +18,27 @@ const Header = () => {
           <li className="hover:text-gray-700">
             <Link to="/features">FEATURES</Link>
           </li>
-          <li className="hover:text-gray-700">PORTFOLIO</li>
-          <li className="hover:text-gray-700">RESUME</li>
-          <li className="hover:text-gray-700">TESTIMONAL</li>
-          <li className="hover:text-gray-700">CLIENTS</li>
-          <li className="hover:text-gray-700">PRICING</li>
-          <li className="hover:text-gray-700">BLOG</li>
-          <li className="hover:text-gray-700">CONTACTS</li>
+          <li className="hover:text-gray-700">
+            <Link to="/portfolio">PORTFOLIO</Link>
+          </li>
+          <li className="hover:text-gray-700">
+            <Link to="/resume">RESUME</Link>
+          </li>
+          <li className="hover:text-gray-700">
+            <Link to="/testimonial">TESTIMONAL</Link>
+          </li>
+          <li className="hover:text-gray-700">
+            <Link to="/clients">CLIENTS</Link>
+          </li>
+          <li className="hover:text-gray-700">
+            <Link to="/pricing">PRICING</Link>
+          </li>
+          <li className="hover:text-gray-700">
+            <Link to="/blog">BLOG</Link>
+          </li>
+          <li className="hover:text-gray-700">
+            <Link to="/contacts">CONTACTS</Link>
+          </li>
         </ul>
       </div>
       <div className="flex space-x-5">
