@@ -23,7 +23,7 @@ const Portfolio = () => {
                 Through a wide variety of mobile applications, we’ve developed a
                 unique visual system.
               </p>
-              <button className="bg-black hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+              <button className="border-2 border-gray-400 shadow-2xl p-2 hover:text-white rounded-lg hover:bg-gradient-to-r from-blue-500 to-red-300 transition-transform text-gray-600 text-md tracking-widest">
                 View Project
               </button>
             </div>
@@ -42,7 +42,7 @@ const Portfolio = () => {
                 Through a wide variety of mobile applications, we’ve developed a
                 unique visual system.
               </p>
-              <button className="bg-black hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+              <button className="border-2 border-gray-400 shadow-2xl p-2 hover:text-white rounded-lg hover:bg-gradient-to-r from-blue-500 to-red-300 transition-transform text-gray-600 text-md tracking-widest">
                 View Project
               </button>
             </div>
@@ -61,7 +61,7 @@ const Portfolio = () => {
                 Through a wide variety of mobile applications, we’ve developed a
                 unique visual system.
               </p>
-              <button className="bg-black hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+              <button className="border-2 border-gray-400 shadow-2xl p-2 hover:text-white rounded-lg hover:bg-gradient-to-r from-blue-500 to-red-300 transition-transform text-gray-600 text-md tracking-widest">
                 View Project
               </button>
             </div>
@@ -80,7 +80,7 @@ const Portfolio = () => {
                 Through a wide variety of mobile applications, we’ve developed a
                 unique visual system.
               </p>
-              <button className="bg-black hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+              <button className="border-2 border-gray-400 shadow-2xl p-2 hover:text-white rounded-lg hover:bg-gradient-to-r from-blue-500 to-red-300 transition-transform text-gray-600 text-md tracking-widest">
                 View Project
               </button>
             </div>
@@ -100,7 +100,7 @@ const Portfolio = () => {
                 Through a wide variety of mobile applications, we’ve developed a
                 unique visual system.
               </p>
-              <button className="bg-black hover:bg-blue-700 hover:text-white text-white font-bold py-2 px-4 rounded">
+              <button className="border-2 border-gray-400 shadow-2xl p-2 hover:text-white rounded-lg hover:bg-gradient-to-r from-blue-500 to-red-300 transition-transform text-gray-600 text-md tracking-widest">
                 View Project
               </button>
             </div>
@@ -120,7 +120,7 @@ const Portfolio = () => {
                 Through a wide variety of mobile applications, we’ve developed a
                 unique visual system.
               </p>
-              <button className="bg-black hover:bg-blue-700 hover:text-white text-white font-bold py-2 px-4 rounded">
+              <button className="border-2 border-gray-400 shadow-2xl p-2 hover:text-white rounded-lg hover:bg-gradient-to-r from-blue-500 to-red-300 transition-transform text-gray-600 text-md tracking-widest">
                 View Project
               </button>
             </div>
