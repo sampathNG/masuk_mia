@@ -29,7 +29,7 @@ const Blog = () => {
                 Through a wide variety of mobile applications, we’ve developed a
                 unique visual system.
               </p>
-              <button className="bg-black hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+              <button className="border-2 border-gray-400 shadow-2xl p-2 hover:text-white rounded-lg hover:bg-gradient-to-r from-blue-500 to-red-300 transition-transform text-gray-600 text-md tracking-widest">
                 View Blog
               </button>
             </div>
@@ -52,12 +52,11 @@ const Blog = () => {
                 Through a wide variety of mobile applications, we’ve developed a
                 unique visual system.
               </p>
-              <button className="bg-black hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+              <button className="border-2 border-gray-400 shadow-2xl p-2 hover:text-white rounded-lg hover:bg-gradient-to-r from-blue-500 to-red-300 transition-transform text-gray-600 text-md tracking-widest">
                 View Blog
               </button>
             </div>
           </div>
-          {/*  */}
           <div className="portfolio-item shadow-lg rounded-lg overflow-hidden">
             <img
               src="https://rainbowit.net/themes/inbio/wp-content/uploads/2021/09/road-sign-direction-perforated-paper-arrow-340x250.jpg"
@@ -71,19 +70,18 @@ const Blog = () => {
                 <h1 className="">4 min read</h1>
               </div>
 
-              <h3 className="text-2xl font-bold mb-4 hover:text-gray-600">
+              <h3 className="text-2xl font-bold mb-4 ">
                 Workout Website Design and Development.
               </h3>
               <p className="text-lg text-gray-600 mb-4">
                 Through a wide variety of mobile applications, we’ve developed a
                 unique visual system.
               </p>
-              <button className="bg-black hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+              <button className="border-2 border-gray-400 shadow-2xl p-2 hover:text-white rounded-lg hover:bg-gradient-to-r from-blue-500 to-red-300 transition-transform text-gray-600 text-md tracking-widest">
                 View Blog
               </button>
             </div>
           </div>
-          {/*  */}
         </div>
       </div>
     </section>
