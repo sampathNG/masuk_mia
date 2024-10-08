@@ -4,6 +4,7 @@ import Features from "./components/Features";
 import Portfolio from "./components/Portfolio";
 import Footer from "./components/Footer";
 import Blog from "./components/Blog";
+import Contact from "./components/Contact";
 function App() {
   return (
     <>
@@ -11,6 +12,7 @@ function App() {
       <Features />
       <Portfolio />
       <Blog />
+      <Contact />
       <Footer />
     </>
   );
