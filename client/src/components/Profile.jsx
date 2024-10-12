@@ -1,8 +1,9 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { SlSocialFacebook, SlSocialLinkedin } from "react-icons/sl";
 import { RxTwitterLogo } from "react-icons/rx";
 import { FaFigma } from "react-icons/fa6";
 
+import TextCutter from "./TextCutter";
 const Profile = () => {
   return (
     <section className="flex items-center w-full justify-around  py-16 px-8">
@@ -16,7 +17,8 @@ const Profile = () => {
           <h1 className="font-semibold text-6xl sm:text-7xl md:text-6xl mb-4">
             HI, I'm&nbsp;
             <span className="text-green-700">
-              Jone Lee <br /> a
+              Jone Lee <br />
+              <TextCutter />
             </span>
           </h1>
           <p className="text-gray-600 text-lg ">
