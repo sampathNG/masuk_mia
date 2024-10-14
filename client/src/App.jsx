@@ -6,6 +6,7 @@ import Footer from "./components/Footer";
 import Blog from "./components/Blog";
 import Contact from "./components/Contact";
 import Testimonial from "./components/Testimonial";
+import Pricing from "./components/Pricing";
 function App() {
   return (
     <>
@@ -14,6 +15,7 @@ function App() {
       <Portfolio />
       <Blog />
       <Testimonial />
+      <Pricing />
       <Contact />
       <Footer />
     </>
